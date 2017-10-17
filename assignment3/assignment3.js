@@ -32,4 +32,4 @@ function grading() {
             alert("This is not a valid grade! \nPlease enter a number between 1 and 100.");
         }
     }
-}//end of grading()
+} //end of grading()
