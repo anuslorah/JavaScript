@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smoothie Maker</title>
+        <link rel="stylesheet" href="assignment4.css">
+    </head>
+    <body>
+        <div>
+            <h1 id = "heading"></h1>
+
+            <h2 class = "s">Smoothie 1</h2>
+            <p id = "smoothie1"></p>
+            <h2 class = "s">Smoothie 2</h2>
+            <p id = "smoothie2"></p>
+            <script src="assignment4.js"></script>
+        </div>
+        <div>
+            <h3>custom smoothie</h3>
+            <form id="c" action="/action_page.php">
+                ingredient 1: <input type = "text" name = "liquidBase" placeholder = "liquid base"><br>
+                ingredient 2: <input type = "text" name = "fruit" placeholder = "fruit or vegetable"><br>
+                ingredient 3: <input type="text" name="protein" placeholder="protein"><br><br>
+            </form> 
+            <button onclick="customSmoothie()">Custom Smoothie</button>
+        </div>
+        <div>
+            <p id="custom"></p>
+        </div>
+        <div id="print">
+            <button onclick="printMe()">Print</button>
+        </div>
+    </body>
+    
+</html>
