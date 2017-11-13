@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miles Per Gallon Calculator</title>
+        <link rel="stylesheet" href="assignment6.css">
+    </head>
+    <body>
+        <div>
+            <h1>How many miles per gallon does your car use?</h1>
+            <form id="mpg" action="none">
+                <label for="miles">Enter miles driven: </label><br>
+                <input type="text" id="miles" name="miles"><br>
+
+                <label for="gallons">Enter gallons of gas used: </label><br>
+                <input type="text" id="gallons" name="gallons"><br>
+                
+                <label for="mpgs">Miles Per Gallon: </label><br>
+                <input type="text" id="mp" name="mpg" disabled><br>
+               
+                <input type="button" onclick="calculate()" value="Calculate MPG">
+            </form>    
+        </div>
+        <script src="assignment6.js"></script>
+    </body>
+</html>
