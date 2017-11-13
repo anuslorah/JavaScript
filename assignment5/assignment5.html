@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Calculator</title>
+        <link rel="stylesheet" href="assignment5.css">
+    </head>
+    <body>
+        <div>
+            <h1>Bill Calculator</h1>
+            <form id="bill" action="none">
+                <label for="billSubtotal">Bill Subtotal: </label>
+                <input type="text" id="billSubtotal" name="billSubtotal">
+                <span id="prompt1">Enter Subtotal </span><br>
+
+                <label for="taxRate">Tax Rate: </label>
+                <input type="text" id="taxRate" name="taxRate">
+                <span id="prompt2">Enter Sales Tax Rate (e.g. 9.5)</span><br>
+                
+                <label for="salesTax">Sales Tax: </label>
+                <input type="text" id="salesTax" name="salesTax" disabled><br>
+               
+                <label for="total">Total: </label>
+                <input type="text" id="total" name="total" disabled><br>
+             
+                <label>&nbsp;</label>
+                <input type="button" onclick="calculate()" value="Calculate">
+                <input type="button" onClick="window.location.reload()" value="Clear">
+            </form>    
+        </div>
+        <script src="assignment5.js"></script>
+    </body>
+</html>

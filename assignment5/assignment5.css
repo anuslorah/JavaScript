@@ -1,0 +1,25 @@
+html {
+    margin-top: 5em;
+}
+body {
+    width: 680px;
+    margin: 0 auto;
+    border: 2px solid gray;
+}
+
+div {
+    padding: 0 2em 1em;
+}
+
+label {
+    float: left;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+    color: #0000ff;
+}
