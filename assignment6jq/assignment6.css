@@ -1,0 +1,22 @@
+html {
+    margin-top: 2em;
+}
+body {
+    width: 800px;
+    margin-left: 1em;}
+
+div {
+    padding: 0 2em 1em;
+}
+
+label {
+    float: left;
+    width: 11em;
+    text-align: left;
+}
+input {
+    margin-bottom: .5em;
+}
+span {
+    color: #0000ff;
+}
