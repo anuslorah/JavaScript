@@ -133,35 +133,19 @@ $(document).ready(function(){
         $("#veggie").hide();
         $("#custom").hide();
         
-        //insert custom smoothie from form into element with id "custom"
         //reset form in case there is a cashed version
         $("#c").trigger('reset');
+
         //get form values
-        
-        /*
-        $("c").submit(function(event) {
-            $(this).serializeArray();
-            event.preventDefault();
-            jQuery.each( $(this).serializeArray(), function( index, value ) {
-                console.log( "index", index, "value", value );
-            });
-        });
-        */
-        
-        var $liquidBase = $("#liquidBase").val(0);
-        var $fruit = $("#fruit").val(1);
-        var $protein = $("#protein").val(2);
-        var $smoothieName = $fruit + " smoothie";
-        var $text = ("<h3>" + $smoothieName + "</h3>"
-                + $liquidBase + "<br>"
-                + $fruit + "<br>"
-                + $protein);
-        $("#showsmoothie").click(function(){
+        $("#showsmoothie").click(function() {
+            var $text = ("<h3>" + $("#fruit1").val() + " smoothie" + "</h3>"
+                + $("#liquidBase").val() + "<br>"
+                + $("#fruit1").val() + "<br>"
+                + $("#protein").val());
             $("#three").hide();
             $("#four").show();
             $("#customsmoothie").append($text);
-        });
-        
+        });    
      });
 
 });
