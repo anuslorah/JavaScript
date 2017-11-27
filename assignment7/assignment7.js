@@ -137,6 +137,17 @@ $(document).ready(function(){
         //reset form in case there is a cashed version
         $("#c").trigger('reset');
         //get form values
+        
+        /*
+        $("c").submit(function(event) {
+            $(this).serializeArray();
+            event.preventDefault();
+            jQuery.each( $(this).serializeArray(), function( index, value ) {
+                console.log( "index", index, "value", value );
+            });
+        });
+        */
+        
         var $liquidBase = $("#liquidBase").val(0);
         var $fruit = $("#fruit").val(1);
         var $protein = $("#protein").val(2);
@@ -150,6 +161,7 @@ $(document).ready(function(){
             $("#four").show();
             $("#customsmoothie").append($text);
         });
+        
      });
 
 });
