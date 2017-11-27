@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smoothie Maker</title>
+        <link rel="stylesheet" href="assignment7.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <h1 id = "heading"></h1>
+        <h2>What kind of smoothie would you like today?</h2>
+        <button id = "fruit">fruit</button>
+        <button id = "veggie">veggie</button>
+        <button id = "custom">custom</button>
+    <div id = 'one'>
+        <p id = "smoothie1"></p>
+    </div>
+    <div id = "two">    
+        <p id = "smoothie2"></p>
+        <div id="flip">Click to view or hide instructions:</div>
+        <div id="panel">Blend!</div><br>        
+    </div>
+    <div id = 'three'>
+        <h3>custom smoothie</h3>
+        <form id="c" action="/action_page.php">
+            ingredient 1: <input type = "text" name = "liquidBase" placeholder = "liquid base"><br>
+            ingredient 2: <input type = "text" name = "fruit" placeholder = "fruit or vegetable"><br>
+            ingredient 3: <input type="text" name="protein" placeholder="protein"><br><br>
+        </form> 
+    <button id="showsmoothie">Custom Smoothie</button><br>
+    </div>
+    <div id = 'four'>
+        <p id="customsmoothie"></p>
+    </div>
+    <div id="print">
+        <button onclick="printMe()">print</button>
+        <button onClick="window.location.reload()">start over</button>
+    </div>
+    <script src="assignment7.js"></script>    
+    </body>
+    
+</html>

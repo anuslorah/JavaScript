@@ -1,0 +1,39 @@
+html {
+    padding: 25px;
+    background-color: #fffae6;
+}
+
+h2 {
+    color: #e60049;
+}
+h3 {
+    color: #990033;
+    text-decoration: underline;
+}
+
+button {
+    color: #990033;
+    border: 1px solid #cc0041;
+    border-radius: 15px;
+    background-color: #ffe6ee;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    margin 10px;
+    cursor: pointer;
+}
+#panel, #flip {
+    width: 400px;
+    padding: 5px;
+    text-align: left;
+    background-color: #ffffb3;
+    border: solid 1px #ffeb99;
+}
+
+#panel {
+    display: none;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
