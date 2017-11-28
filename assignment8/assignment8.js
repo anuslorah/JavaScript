@@ -23,7 +23,8 @@ $(document).ready(function () {
         marginLeft: "175px",
         fontSize: "650%"
     }, 1000).animate({
-        fontSize: "175%"
+        fontSize: "175%",
+        marginLeft: "5px"
     }, 1500);
     
 });
