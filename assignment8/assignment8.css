@@ -1,0 +1,29 @@
+div.wrapper {
+    margin: 0 auto;
+    width: 650px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+h2.accordion {
+    text-align: left;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+div.panel {
+    display: none;
+}
+
+h2.accordion:after {
+    content: url(images/plus.png);
+    font-size: 13px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-content: center;
+}
+
+h2.accordion.active:after {
+    content: url(images/minus.png);
+}
