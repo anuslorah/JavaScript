@@ -1,5 +1,5 @@
 html page to show use of 3 jQuery UI widgets:
-dialog widget, opens from the <instructions> button;
+dialog widget, opens from the -instructions- button;
 date widget, opens a calendar;
 draggable widget, allows elements to be moved using the mouse.
 
