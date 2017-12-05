@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>to do</title>
+        <link rel="stylesheet" href="assignment9.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+        <div id = "wrapper">
+            
+            <div id="dialog" title="">
+                <p>Drag the <b>date</b>, <b>to do</b>, <b>done</b> and <b>print</b> fields to desired location. Create <b>to do</b> list items and as you finish the tasks drag the list item by the bullet to the green box under the <b>done</b> label.</p>
+            </div>
+            
+            <div id="draggabledate" class="ui-widget-content">
+                <p class="date">Date: <input type="text" id="datepicker"></p>        
+            </div>
+            
+            <div id="draggabletodo" class="ui-widget-content" class="todo">
+                <h2>to do</h2>
+                
+                <ul id="sortable1" class="connectedSortable">
+                    <button class="add_field_button">Add More Fields</button>
+                    <li class="ui-state-default"><input type="text" size="40" name="mytext[]"><a href="#" class="remove_field">Remove</a></li>
+                </ul>
+            </div>
+            
+            <div id="draggabledone" class="ui-widget-content" class="done">
+                <h2>done</h2>
+                <ul id="sortable2" class="connectedSortable"></ul>
+            </div>
+            
+            <div id="draggableprint" class="ui-widget-content">
+                <button onclick="printMe()">print</button>
+                <button onClick="window.location.reload()">start over</button>
+                <button button id="instructions">instructions</button>
+            </div>        
+        </div>
+        
+    <script src="assignment9.js"></script>    
+    </body>
+</html>

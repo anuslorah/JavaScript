@@ -1,0 +1,61 @@
+html {
+}
+#wrapper {
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px;
+    height: 100%;
+} 
+#draggabledate { 
+    width: 30%;
+    background-color: #cceeff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#sortable1, #sortable2 {
+    width: 90%;
+    min-height: 30px;
+    list-style-type: square;
+}
+
+#sortable1 {
+    background-color: #b3ffb3;
+    
+}
+
+#sortable2 {
+    background-color: #b3ffb3;
+}
+
+#sortable1 li, #sortable2 li {
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.add_field_button {
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+#dialog {
+    background-color: #b3ffb3;
+    padding: 10px;
+}
+
+#draggabletodo, #draggabledone {
+    width: 30%;
+    background-color: #cceeff;
+    min-height: 60px;
+    text-align: center;
+}
+
+#draggableprint {
+    width: 30%;
+    background-color: #cceeff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
