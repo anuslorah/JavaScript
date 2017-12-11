@@ -1,10 +1,10 @@
 (function ($, undefined) {
     'use strict';
     var defaults = {
-        item: 1,
+        item: 3,
         autoWidth: false,
         slideMove: 1,
-        slideMargin: 0,
+        slideMargin: 10,
         addClass: '',
         mode: 'slide',
         useCSS: true,
@@ -13,7 +13,7 @@
         speed: 400, //ms'
         auto: false,
         pauseOnHover: false,
-        loop: true,
+        loop: false,
         slideEndAnimation: true,
         pause: 2000,
         keyPress: false,
@@ -25,9 +25,9 @@
         vertical: false,
         verticalHeight: 500,
         vThumbWidth: 100,
-        thumbItem: 5,
+        thumbItem: 10,
         pager: true,
-        gallery: true,
+        gallery: false,
         galleryMargin: 5,
         thumbMargin: 5,
         currentPagerPosition: 'middle',
