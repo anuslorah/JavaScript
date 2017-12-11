@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Volkhov');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #FAFAFA;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 34px;
+}
+
+p {
+    font-size: 1em;
+}
+
+h2 {
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+a {
+    color: #595959;
+    text-decoration: none;
+}
+
+p.center {
+    text-align: center;
+    font-size: 0.95em;
+}
+
+a.pageID {
+    font-family: 'Volkhov', serif;
+    color: #000000;
+    font-size: 44px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header {
+    padding-bottom: 34px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+div.body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+div.contact {
+    width: 60%;
+    margin: 0 auto;
+    float: right;
+}
+
+#form label.error {
+    color: red;
+    font-weight: bold;
+}
+
+div.contact-feedback {
+    width: 60%;
+}
+
+div.wrapper, footer {
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+footer {
+    padding-top: 16px;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    padding: 2em;
+}
+
+/*desktop*/
+
+@media all and (min-width:1280px){
+    
+    div.wrapper, footer {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/*tablet*/
+
+@media all and (min-width:481px) and (max-width:1279px){
+    
+    div.wrapper, footer {
+        width: 85%;
+        margin: 0 auto;
+    }   
+   
+    div.contact {
+        width: 80%;
+        float: right;
+    }
+}   
+    
+/*phone*/
+
+@media all and (max-width:480px){
+    a.pageID {
+    font-size: 44px;
+    }
+    
+    div.wrapper, footer {
+            width: 100%;
+        }
+    
+     div.contact {
+        width: 100%;
+        padding: 10px;
+        float: none;
+    }
+}
