@@ -18,8 +18,8 @@
 * https://developers.google.com/recaptcha/docs/start 
 * to learn how
 */
-$siteKey = "6LeQlDAUAAAAAHULKXcngURG1MoRw_5crC-pngET";
-$secretKey = "6LeQlDAUAAAAAMUuoXirRNwY0icJdskWvljYtT7F";
+$siteKey = "";
+$secretKey = "";
 
 //this avoids date errors
 date_default_timezone_set('America/Los_Angeles');
