@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Raleway');* {
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Raleway');
+
+* {
     margin: 0;
     padding: 0;
 }
 
-
+html, body {
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+}
 
 body {
     font-family: 'Raleway', sans-serif;
-    padding-top: 34px;
+    padding-top: 0px;
 }
 
 p {
@@ -43,6 +49,7 @@ header {
 
 header h1 {
     text-align: center;
+    padding-top: 34px;
 }
 
 nav {
@@ -216,6 +223,7 @@ h2.accordion.active:after {
     font-weight: normal;
     color: #000;
 }
+
 
 ul.lightslider {
     text-align: center;

@@ -1,9 +1,8 @@
 <?php include "includes/header.php"?>
     <div class="container">
         <div class = "left">
-            <img src="http://via.placeholder.com/300x300" alt="placeholder image">
+            <img src="images/images_small/placeimg1_300_300_tech.jpg" alt="placeholder image">
         </div>
-
         <div class = "tabswrap">
             <h2>accordion title</h2>
         

@@ -21,13 +21,12 @@
             <p><img src="images/images_small/placeimg5_300_300_tech.jpg"></p>
         </li> 
     </ul>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#lightSlider").lightSlider();
-    });
-</script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightSlider").lightSlider();
+        });
+    </script>
     <script src="javascript/lightslider.js"></script>
     <script src="javascript/slider.js"></script>
     
-        
 <?php include "includes/footer.php"?>   

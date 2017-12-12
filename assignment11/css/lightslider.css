@@ -4,6 +4,7 @@
 /** /!!! core css Should not edit !!!/**/ 
 
 .lSSlideOuter {
+    text-align: center;
     overflow: hidden;
     -webkit-touch-callout: none;
     -webkit-user-select: none;

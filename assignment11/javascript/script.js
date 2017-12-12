@@ -65,9 +65,6 @@ jQuery(document).ready(function (e) {
         );
       });
 
-
-
-
     //dropdown menu toggle
     function t(t) {
         e(t).bind("click", function (t) {
@@ -91,6 +88,4 @@ jQuery(document).ready(function (e) {
         var n = e(t.target);
         if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
     })
-    
-    
 });
