@@ -10,7 +10,7 @@ form with JavaScript validation
 ui widget for accordion, tabs, lightslider
 jQuery plugin for weather inside the form
 
-http://anu.kadarpik.com/javascript/assignment11/index.php
+https://anu.kadarpik.com/javascript/assignment11/index.php
 
 
 folder icons is superfluos
