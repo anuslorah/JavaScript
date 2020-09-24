@@ -9,4 +9,4 @@ and opacity set to 100% for a duration of 1000 mls,
 after which the jQuery FAQs title is moved back to its original position, 
 and the font size is reduced to 175%. 
 
-http://anu.kadarpik.com/javascript/assignment8/assignment8.html
+https://anu.kadarpik.com/javascript/assignment8/assignment8.html
