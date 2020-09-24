@@ -15,4 +15,4 @@ Finding HTML elements by CSS selectors (takes all elements "h1" with querySelect
 Finding HTML elements by HTML object collections (finds the form element with id="c", in the forms collection, and displays all element values).
 
 
-http://anu.kadarpik.com/javascript/assignment4/assignment4.html
+https://anu.kadarpik.com/javascript/assignment4/assignment4.html
