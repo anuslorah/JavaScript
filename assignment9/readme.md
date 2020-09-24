@@ -6,4 +6,4 @@ date widget, opens a calendar;
 
 draggable widget, allows all elements to be moved using the mouse.
 
-http://anu.kadarpik.com/javascript/assignment9/assignment9.html
+https://anu.kadarpik.com/javascript/assignment9/assignment9.html
