@@ -18,4 +18,4 @@ trigger(reset) --  resets form to avoid showing cashed data
 val() -- under custom gets values from form
 
 
-http://anu.kadarpik.com/javascript/assignment7/assignment7.html
+https://anu.kadarpik.com/javascript/assignment7/assignment7.html
